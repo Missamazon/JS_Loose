@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Quintessential', cursive;
+    color: rgb(43, 37, 43);
+    background-color: rgb(246, 247, 211);
+}
+
+#main-header{
+    background-color: gold;
+    color: black;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: gold;
+    border: 1px solid gold;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: gold;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+
+.btn-alt:hover {
+    background-color: rgba(255, 255, 0, 0.562);
+    border-color: transparent;
+}

@@ -1,0 +1,46 @@
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+  }
+
+  h1 {
+    font-family: 'Quintessential', cursive;
+  }
+  
+  #ville {
+    text-transform: capitalize;
+    font-family: 'Quintessential', cursive;
+  }
+  
+  #temperature {
+    font-size: 4em;
+    font-family: 'Quintessential', cursive;
+  }
+
+  span #weather {
+    font-size: 4em;
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, .3);
+    border: transparent;
+    cursor: pointer;
+    font-family: 'Quintessential', cursive;
+  }
+
+  #changer:hover{
+    background: rgba(69, 171, 235, 0.418);
+  }
+
+  #geoloc {
+    background: rgba(178, 223, 251, .3);
+    border: transparent;
+    cursor: pointer;
+    font-family: 'Quintessential', cursive;
+  }
+
+  #geoloc:hover {
+    background: rgba(69, 171, 235, 0.418);
+  }
